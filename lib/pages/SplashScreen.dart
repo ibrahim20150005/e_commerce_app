@@ -17,7 +17,7 @@ class _MySplashScreen extends State<MySplashScreen> {
     Timer(
         Duration(seconds: 3),
         () => Navigator.of(context)
-            .push(MaterialPageRoute(builder: (context) => Login())));
+            .pushReplacement(MaterialPageRoute(builder: (context) => Login())));
   }
 
   @override
